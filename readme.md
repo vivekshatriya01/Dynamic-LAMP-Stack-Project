@@ -17,3 +17,7 @@ A complete deployment of a multi-tier LAMP (Linux, Apache, MariaDB, PHP) stack w
 
 ## 🛠️ Quick Setup
 1. Clone repository into Apache document root:
+
+## Output Image 
+<img width="1917" height="1077" alt="Dynamic Lamp Server final" src="https://github.com/user-attachments/assets/ee77cd07-6de2-46a1-8f82-1c9d0f50f70f" />
+
