@@ -1,0 +1,32 @@
+cat << 'EOF' > ~/lamp-stack-rhel10/.gitignore
+# --- Environment & Credentials ---
+.env
+*.env
+config.local.php
+secrets.php
+
+# --- System & Web Server Logs ---
+*.log
+error_log
+access_log
+php_errors.log
+
+# --- Linux & Editor Temporary Files ---
+*~
+*.swp
+*.swo
+.directory
+.DS_Store
+Thumbs.db
+
+# --- Database Dumps with Sensitive / Live Data ---
+# (Keeping sql/schema.sql clean, ignoring accidental raw dumps)
+*.dump
+*.bak
+*.sql.gz
+
+# --- IDE & Editor Settings ---
+.vscode/
+.idea/
+EOF
+
